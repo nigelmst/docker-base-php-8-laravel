@@ -32,4 +32,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: ghcr.io/prYmea/docker-base-php-8-laravel:latest
+          tags: ghcr.io/prymea/docker-base-php-8-laravel:latest
