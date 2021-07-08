@@ -1,5 +1,4 @@
-FROM php:8.0-fpm-alpine AS php-system-setup
-
+FROM php:8.0-fpm-alpine
 # Install system dependencies
 RUN apk add --no-cache dcron busybox-suid libcap curl zip unzip git
 
