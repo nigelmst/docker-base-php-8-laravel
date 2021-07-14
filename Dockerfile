@@ -1,6 +1,6 @@
 FROM php:8.0-fpm-alpine
 # Install system dependencies
-RUN apk add --no-cache dcron busybox-suid libcap curl zip unzip git
+RUN apk add --no-cache bash dcron busybox-suid libcap curl zip unzip git
 
 # Install PHP extensions
 COPY --from=mlocati/php-extension-installer /usr/bin/install-php-extensions /usr/bin/
